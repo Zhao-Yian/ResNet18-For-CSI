@@ -1,10 +1,5 @@
-- 👋 Hi, I’m @Zhao-Yian
-- 👀 I’m interested in programming.
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
 
-<!---
-Zhao-Yian/Zhao-Yian is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+This is a neural network written based on the ResNet18 architecture for training and predicting performance on pre-processed CSI channel data.
+
+
+net.py是训练代码，其中调用了tensorboard回调函数，可以保存网络参数并实时监控训练进度.
